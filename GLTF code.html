@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<script src=https://aframe.io/releases/0.9.2/aframe.min.js></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.7.2/aframe/build/aframe-ar.js"></script>
+<script src="https://rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.loaders.min.js"></script>
+<script src="https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/js/loaders/GLTFLoader.js"></script>
+
+<body style='margin : 0px; overflow: hidden; font-family: Monospace;'></body>
+  
+<var> loader = new THREE.GLTFLoader();</var>
+
+
+<a-scene embedded arjs=’sourceType: webcam;’>
+    
+  <a-marker preset=’hiro’>
+      
+  </a-marker>
+      
+        <a-entity camera>
+        </a-entity> 
+
+        <a-assets>
+          <a-assets-items id="buster_drone" src="assets/scene.gltf"></a-assets-items></a-assets> 
+
+ 
+  
+  </a-scene>
+</body>
+</html>
