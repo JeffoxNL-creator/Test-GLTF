@@ -1,0 +1,157 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.46",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "SM_Glass_001_BezierCurve.008"
+        }
+    ],
+    "materials" : [
+        {
+            "alphaCutoff" : 0.2839196026325226,
+            "alphaMode" : "MASK",
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Texture_Base",
+            "normalTexture" : {
+                "index" : 0,
+                "scale" : 1.7999999523162842,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "SM_Glass_001_BezierCurve.008",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "SM_Oillamp_006_Texture_Base_Normal",
+            "uri" : "SM_Oillamp_006_Texture_Base_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "SM_Oillamp_006_Texture_Base_BaseColor",
+            "uri" : "SM_Oillamp_006_Texture_Base_BaseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "SM_Oillamp_006_Texture_Base_ORM",
+            "uri" : "SM_Oillamp_006_Texture_Base_ORM.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 4872,
+            "max" : [
+                0.45746999979019165,
+                1.8192269802093506,
+                0.28046202659606934
+            ],
+            "min" : [
+                -0.45746999979019165,
+                -0.0003950153768528253,
+                -0.28046196699142456
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 4872,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 4872,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 19920,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 58464,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 58464,
+            "byteOffset" : 58464
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 38976,
+            "byteOffset" : 116928
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 39840,
+            "byteOffset" : 155904
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 195744,
+            "uri" : "T_Oillamp_AR_002.bin"
+        }
+    ]
+}
